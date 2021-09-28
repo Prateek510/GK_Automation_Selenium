@@ -20,7 +20,6 @@ public class Hook {
      @Before
     public void setup(){
         System.out.println("Before login scenario");
-        //System.setProperty("webdriver.chrome.driver", "C:\\Automation\\Resources1\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
