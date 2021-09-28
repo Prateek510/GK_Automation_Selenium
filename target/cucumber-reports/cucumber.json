@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-23T22:36:24.005Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1852438500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hook.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Add the product to the cart",
+        "description": "",
+        "id": "navigating-to-the-saucelab-website-and-adding-the-product-to-the-cart;add-the-product-to-the-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4118189600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the site URL",
+            "match": {
+              "location": "StepDefinition.saucedemo.navigateToTheSiteURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174001700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user enters the username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 64
+                }
+              ],
+              "location": "StepDefinition.saucedemo.theUserEntersTheUsernameAsAndPasswordAs(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111996600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks on the login button",
+            "match": {
+              "location": "StepDefinition.saucedemo.theUserClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135003800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks on the product sort container",
+            "match": {
+              "location": "StepDefinition.saucedemo.theUserClicksOnTheProductSortContainer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145002000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the sort option as \"Price (low to high)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (low to high)\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.saucedemo.selectTheSortOptionAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select the inventory item name as Sauce Labs Onesie",
+            "match": {
+              "location": "StepDefinition.saucedemo.selectTheInventoryItemNameAsSauceLabsOnesie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50001500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks on the Add to cart button",
+            "match": {
+              "location": "StepDefinition.saucedemo.theUserClicksOnTheAddToCartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111936000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user navigates to the shopping cart link",
+            "match": {
+              "location": "StepDefinition.saucedemo.theUserNavigatesToTheShoppingCartLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1018100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the item name in the cart",
+            "match": {
+              "location": "StepDefinition.saucedemo.validateTheItemNameInTheCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52999700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user clicks on the Remove button",
+            "match": {
+              "location": "StepDefinition.saucedemo.theUserClicksOnTheRemoveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 697916400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Logout of the application",
+            "match": {
+              "location": "StepDefinition.saucedemo.logoutOfTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to the saucelab website and adding the product to the cart",
+    "description": "",
+    "id": "navigating-to-the-saucelab-website-and-adding-the-product-to-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/saucedemo.feature",
+    "tags": []
+  }
+]
