@@ -47,12 +47,6 @@ public class saucedemo{
         s.selectByVisibleText(arg0);
     }
 
-    @And("Select the inventory item name as {string}")
-    public void selectTheInventoryItemNameAs(String arg0) {
-       //or.Inventory_Name.click();
-
-    }
-
     @And("Select the inventory item name as Sauce Labs Onesie")
     public void selectTheInventoryItemNameAsSauceLabsOnesie() {
         ActualItem_Name=or.Inventory_Name.getText();
